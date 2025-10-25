@@ -731,3 +731,36 @@ console.log(person.address.street);
 
 
 */
+
+// Array of  Objects
+
+// const students = [
+//   { id: 1, name: "Leen", grade: "A" },
+//   { id: 2, name: "Ahmad", grade: "B" },
+//   { id: 3, name: "Noor", grade: "A+" },
+// ];
+
+// for (let i = 0; i < students.length; i++) {
+//   console.log(students[i].name);
+// }
+/*
+const numbers = [5, 2, 10, 1];
+
+// ترتيب تصاعدي (من الأصغر للأكبر)
+numbers.sort((a, b) => a - b);
+console.log(numbers); // [1, 2, 5, 10]
+
+// ترتيب تنازلي (من الأكبر للأصغر)
+numbers.sort((a, b) => b - a);
+console.log(numbers); // [10, 5, 2, 1]
+
+const names = ["Leen", "Sara", "Omar", "Ahmad"];
+names.sort();
+console.log(names);
+
+
+
+
+
+
+*/
