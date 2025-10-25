@@ -715,5 +715,19 @@ const { name, age } = user;
 console.log(name, age); // 'Leen' 23
 
 
+*/
+// Nested Objects
+/*
+const person = {
+  name: "Leen",
+  age: 23,
+  address: {
+    city: "Amman",
+    street: "Rainbow Street",
+    zip: 11183
+  }
+};
+console.log(person.address.street);
+
 
 */
