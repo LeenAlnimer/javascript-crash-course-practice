@@ -692,3 +692,28 @@ Getter يسمح لك تشوفي المعلومات بدون تعديلها.
 إذا لاحظت أنك تحتاج: حماية، تحقق، أو حساب ديناميكي للقيم، استخدمي Getter/Setter.
 أما إذا مجرد تخزين بيانات عادية بدون شروط، property عادي يكفي.
 */
+// Destructuring   التفكيك
+
+// [] to perform  array destructuring
+// {} to perform   object  destructuring
+// swapping
+// let a = 1;
+// let b = 2;
+// [a, b] = [b, a];
+
+// console.log(a);
+// console.log(b);
+// const colors = ["red", "green", "blue", "black", "white"];
+// [colors[0], colors[4]] = [colors[4], colors[0]];
+// console.log(colors);
+// destructuring from objects
+
+/*
+const user = {name: 'Leen', age: 23, city: 'Amman'};
+
+const { name, age } = user;
+console.log(name, age); // 'Leen' 23
+
+
+
+*/
