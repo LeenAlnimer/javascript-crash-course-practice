@@ -1,0 +1,58 @@
+/* #countLabel{
+// id  
+display:block;
+text-align: center;
+font-size: 10em;
+font-family:Helvetica ;
+
+}
+#btnContainer{
+
+    text-align: center;
+
+
+}
+.buttons{// class  
+
+    padding:20px 20px;
+    font-size:1-5em ;
+    color:#ad42f5;
+    background-color:#f5b642 ;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: #f542e6;
+} */
+
+
+
+
+
+ /* tag */
+/* body
+{
+    font-family: Verdana;
+    text-align:center;
+}
+#Random{
+font-size: 3em;
+padding: 5px 25 px;
+border-radius: 5px;
+
+}
+.myLabels{
+    font-size: 3em;
+} */
+
+
+
+/* body{
+
+
+    font-family:Arial,sans-serif;
+    background-color:#2d9d7e;
+
+
+} */
