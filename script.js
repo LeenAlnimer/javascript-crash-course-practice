@@ -760,7 +760,41 @@ console.log(names);
 
 
 
+*/
 
+//Shuffle  An  Array
+
+// const cards = ["1", "2", "3"];
+// cards.sort(() => Math.random() - 0.5);
+// console.log(cards);
+// Dates
+// const date = new Date();
+// console.log(date);
+//Closure
+//الـ Closure هي دالة بتقدر تستخدم متغيرات من دالة تانية (أعلى منها) حتى بعد ما تخلص هاي الدالة التانية.
+/*دالة جوّا دالة →
+والدالة الداخلية بتتذكّر متغيرات الخارجية وبتضل تقدر توصل إلها.
+
+
+
+
+function outer() {
+  let x = 10;
+  return function inner() {
+    console.log(x); // بتتذكر x من outer
+  };
+}
+
+const test = outer();
+test(); // 10 
+
+
+
+
+closure: function inside  another  function and  inner  function have  
+access  to  variable  of outer  function  
+لهدف
+حفظ البيانات أو الحالة بدون ما تكون متاحة من الخارج
 
 
 */
