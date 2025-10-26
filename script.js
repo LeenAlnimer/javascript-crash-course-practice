@@ -798,3 +798,16 @@ access  to  variable  of outer  function
 
 
 */
+
+// settimeOut
+/*
+Function  in js  that  allows cus to  schedule  the  that function to execute
+after an amount  of  time  (miliseconds )
+
+setTimeout(callback,delay);
+*/
+// function sayHello() {
+//   window.alert("Hello");
+// }
+// //say hello is  a callback function
+// setTimeout(sayHello, 3000);
