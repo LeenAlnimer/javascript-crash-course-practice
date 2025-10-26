@@ -811,3 +811,86 @@ setTimeout(callback,delay);
 // }
 // //say hello is  a callback function
 // setTimeout(sayHello, 3000);
+
+// ES6  Modules
+/*هي طريقة حديثة في JavaScript لتنظيم الكود عن طريق تقسيمه إلى ملفات صغيرة قابلة لإعادة الاستخدام.
+
+// USING  export / import   
+
+if you want to use it == import  you should make  export  from other files  so   you can  use  these  moduls 
+
+
+// the  main objective from that to write  reusable  code instead  of writing  like  variables same that you wrotee  in  another  file  
+you just  export  and  import  them  without  rewrite  them  again 
+
+
+
+
+*/
+
+// Asynchronous  غير متزامنv يعني  مابستنىs
+// it does not  wait // it  make many opertion even if  it  does not  finish
+// like using settimeout  so  it   does  not  wait  so  js  is asynchronous
+// because  of that  it  deals  with callbacks  / await / promises  /async  s
+// synchronos متزامن     هون  لازم يستنى   // it  waits   it should  wait  operation to complete to go to another  operation
+
+// Error  Handling
+
+/*
+
+. شو يعني Error Handling؟
+
+في أي برنامج، ممكن تصير أخطاء أثناء التنفيذ، زي:
+
+محاولة الوصول لمتغير غير معرف
+
+قسمة على صفر
+
+قراءة ملف مش موجود
+
+أي خطأ منطقي أو برمجي
+
+Error Handling هي طريقة للتعامل مع هذه الأخطاء بدون ما يتوقف البرنامج فجأة
+
+/*try…catch we will use to hndle and  deal  wirh these errors */
+
+/*
+
+try = نحط الكود اللي ممكن يسبب خطأ
+
+catch(error) = الكود اللي ينفذ عند حدوث خطأ، error عبارة عن كائن يحتوي على التفاصيل
+
+الهدف من Error Handling
+
+الـ Error Handling مش لازم يمنع الخطأ من الحدوث، بل هدفه:
+
+يمنع توقف البرنامج فجأة (crash)
+
+يعطي رسالة واضحة للمستخدم أو المطور
+
+يسمح للبرنامج يكمل تنفيذ باقي الكود بشكل طبيعي
+
+
+
+
+
+متى  استخدمه؟
+
+
+لكود اللي قد يخطئ بسبب عوامل خارجية أو بيانات غير مؤكدة → استخدمي try/catch
+*/
+// function login(username, password) {
+//   try {
+//     if (!username) throw new Error("اسم المستخدم مطلوب");
+//     if (!password) throw new Error("كلمة المرور مطلوبة");
+//     if (password.length < 6) throw new Error("كلمة المرور قصيرة جدًا");
+
+//     console.log("تم تسجيل الدخول بنجاح!");
+//   } catch (err) {
+//     console.log("Login Error:", err.message);
+//   } finally {
+//     console.log("انتهى التحقق من الفورم");
+//   }
+// }
+
+// login("", "12345");
