@@ -1,0 +1,30 @@
+body {
+  background-image: url('DigitalClock.jpg');
+  background-size: cover;       /* تخلي الصورة تغطي كل الشاشة */
+  background-position: center;  /* تخلّي الصورة بالمنتصف */
+  background-repeat: no-repeat; /* تمنع تكرار الصورة */
+  height: 100vh;                /* تخلي الجسم بطول الشاشة */
+  background-attachment: fixed;
+  margin: 0;
+}
+
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#clock {
+  font-family: monospace;
+  font-size: 6em;
+  font-weight: bold;
+  text-align: center;
+  color: #b0cfff; 
+  background: rgba(0, 0, 0, 0.4);  
+  padding: 20px 40px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);  
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
